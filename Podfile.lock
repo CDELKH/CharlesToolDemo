@@ -1,0 +1,43 @@
+PODS:
+  - CharlesTool (1.0.0):
+    - JSONKit-NoWarning (>= 1.2)
+    - Masonry (>= 0.6.0)
+    - ReactiveCocoa (= 2.3.1)
+  - JSONKit-NoWarning (1.2)
+  - Masonry (1.1.0)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+
+DEPENDENCIES:
+  - CharlesTool (from `Lib/CharlesTool`)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - JSONKit-NoWarning
+    - Masonry
+    - ReactiveCocoa
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CharlesTool:
+    :path: Lib/CharlesTool
+
+SPEC CHECKSUMS:
+  CharlesTool: 84f2c03bdd875c5a64a76e7f6118ff37cce0aff6
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+
+PODFILE CHECKSUM: 8338813b121afb8548fba169db887f0ee46c079b
+
+COCOAPODS: 1.10.1

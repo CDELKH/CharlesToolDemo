@@ -1,0 +1,17 @@
+//
+//  CharlesDemo-Prefix.pch
+//  CharlesDemo
+//
+//  Created by konghui on 2021/3/17.
+//
+
+#ifndef CharlesDemo_Prefix_pch
+#define CharlesDemo_Prefix_pch
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+
+#endif /* CharlesDemo_Prefix_pch */
