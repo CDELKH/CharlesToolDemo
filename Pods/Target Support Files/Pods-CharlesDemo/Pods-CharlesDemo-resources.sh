@@ -97,22 +97,22 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@3x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@3x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/list_btn_into@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/nav_btn_back_n@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/nav_btn_back_n@3x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@3x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@3x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/list_btn_into@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/nav_btn_back_n@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/nav_btn_back_n@3x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@3x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@3x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/list_btn_into@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/nav_btn_back_n@2x.png"
-  install_resource "${PODS_ROOT}/../Lib/CharlesTool/CharlesTool/Assets/nav_btn_back_n@3x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_nav_icon_ss@3x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/charlesTool_searchbar_clean@3x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/list_btn_into@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/nav_btn_back_n@2x.png"
+  install_resource "${PODS_ROOT}/CharlesTool/CharlesTool/Assets/nav_btn_back_n@3x.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

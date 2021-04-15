@@ -12,32 +12,29 @@ PODS:
   - ReactiveCocoa/no-arc (2.3.1)
   - ReactiveCocoa/UI (2.3.1):
     - ReactiveCocoa/Core
-  - SDWebImage (5.10.4):
-    - SDWebImage/Core (= 5.10.4)
-  - SDWebImage/Core (5.10.4)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
 
 DEPENDENCIES:
-  - CharlesTool (from `Lib/CharlesTool`)
+  - CharlesTool (= 1.0.0)
   - SDWebImage
 
 SPEC REPOS:
   trunk:
+    - CharlesTool
     - JSONKit-NoWarning
     - Masonry
     - ReactiveCocoa
     - SDWebImage
 
-EXTERNAL SOURCES:
-  CharlesTool:
-    :path: Lib/CharlesTool
-
 SPEC CHECKSUMS:
-  CharlesTool: 84f2c03bdd875c5a64a76e7f6118ff37cce0aff6
+  CharlesTool: f32dd5fcc86d1990c72d47ac8abcb9c3929ec4b3
   JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
-  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
 
-PODFILE CHECKSUM: 8338813b121afb8548fba169db887f0ee46c079b
+PODFILE CHECKSUM: 8f3505045d5e76e8c76d792ccee26200e6d4c4d1
 
 COCOAPODS: 1.10.1

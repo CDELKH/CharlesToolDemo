@@ -1,1 +1,1 @@
-../../../../Lib/CharlesTool/CharlesTool/Classes/DLRequestsDetailModule(接口详情)/Model/DLRequestDetailModel.h
+../../../CharlesTool/CharlesTool/Classes/DLRequestsDetailModule(接口详情)/Model/DLRequestDetailModel.h

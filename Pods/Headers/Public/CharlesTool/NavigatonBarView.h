@@ -1,1 +1,1 @@
-../../../../Lib/CharlesTool/CharlesTool/Classes/Basic/NavigatonBarView.h
+../../../CharlesTool/CharlesTool/Classes/Basic/NavigatonBarView.h
